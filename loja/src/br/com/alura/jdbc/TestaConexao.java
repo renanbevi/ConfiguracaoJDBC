@@ -10,9 +10,10 @@ public class TestaConexao {
 		Connection connection = DriverManager
 				.getConnection("jdbc:mysql://localhost/loja_virtual?useTimezone=true&serverTimezone=UTC", "root", "root");
 
-		System.out.println("Fechando conexão!!");
+		System.out.println("Fechando conexï¿½o!!");
 		
-		connection.close();
+		connection.close(); //fechando a conexÃ£o
+		
 	}
 
 }
