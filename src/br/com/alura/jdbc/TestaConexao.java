@@ -15,7 +15,8 @@ public class TestaConexao {
 
 	System.out.println("Fechando conexão!!");
 	
-	connection.close();
+	
+	connection.close(); // fechando conexao.
 
 
 	}
